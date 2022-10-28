@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, "Noto Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+  width: 100%;
+}
+
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:white;
+  font-size: 18px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  padding-left: 5px;
+
+}
+
+a {
+  color: #6b7280;
+}
+
+a:hover {
+  color: #5A67D8;
+}
+
+.overview-hero .container {
+  background-color: #E2E8F0;
+  overflow: hidden;
+}
+
+.overview-hero-image > img{
+  width: 300px;
+  padding: 20px;
+}
+
+.container .overview-hero-image{
+  float:left;
+}
+
+.container .overview-hero-text{
+  text-align: justify;
+  padding: 20px;
+}
+
+.learn-about{
+  clear:both;
+  padding-top:20px;
+}
+
+.learn-about img {
+  width: 300px;
+}
+
+.learn-about h2{
+  font-size: 24px;
+  color: #48BB78;
+}
+
+.learn-about h3{
+  font-size: 21px;
+  color: #48BB78;
+}
+
+.learn-about .container .cards {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+}
+
+.learn-about .container .card {
+  padding: 5px;
+  border: 1px solid #E2E8F0;
+  box-shadow: 5px 5px #E2E8F0;
+  border-radius: 5px;
+}
+
+.testing {
+  padding: 20px;
+}
+
+.testing .container{
+  background-color: #4A5568;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testing .testing-desciption{
+  width: 50%;
+  padding-right: 40px;
+}
+
+.testing .cta{
+  background-color: #48BB78;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.stories a {
+  color: #5A67D8;
+}
+
+.stories h2{
+  color: #5A67D8;
+}
+
+.stories h3{
+  font-size: 18px;
+}
+
+.stories .container img{
+  width: 200px;
+  border-radius: 50%;
+  float: left;
+  padding-right: 20px;
+}
+
+.stories .containter .article-body{
+  float: right;
+}
+
+.stories article{
+  padding:20px;
+}
+
+.newsletter{
+  clear:both;
+  text-align: center;
+}
+
+.newsletter .container{
+  background-color: #48BB78;
+  color: white;
+}
+
+.newsletter button{
+  background-color: #5A67D8;
+  padding:10px;
+}
+
+footer .container{
+  background-color: #4A5568;
+  color: white;
+  padding-top:10px;
+  padding-bottom: 10px;
+}
